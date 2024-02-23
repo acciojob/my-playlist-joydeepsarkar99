@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(204, 204, 204);
+}
+.heading{
+	text-align:center;
+}
+.container{
+	background-color:rgb(255, 255, 255);
+	border:2px solid black;
+	border-radius:5px;
+	box-sizing:border-box;
+	padding:15px;
+}
+.playlist{
+	width:95%;
+	margin-inline:auto;
+}
+.playlist>ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.playlist>ul>li>a{
+	color:black;
+	text-decoration:none;
+}
+.audio-video{
+	width:85%;
+	margin-inline:auto;
+}
+.player_one,.player_two{
+	width:100%;
+}
